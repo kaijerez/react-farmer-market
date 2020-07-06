@@ -1,0 +1,105 @@
+.navbar{
+    background: #3b403c;
+    color: white;
+}
+.navbar a{
+    color: White !important;
+}
+.footerFont{
+   font-size: 11px;
+}
+.add-bottom{
+    margin-top: 25px;
+}
+
+h1{
+    color:  #507d54;
+}
+.card {
+    border-color: #a8dfc6 !important;
+    padding: 0px !important;
+    margin: 5px;
+    box-shadow:  
+              1px 1px 5px rgba(0,0,0,0.3);
+}
+.product-card div{
+    font-size: 11px;
+}
+.rdt_TableHeader{
+    visibility: hidden;
+}
+.filter-row {
+    margin-top: 15px;
+    align-items: center;
+    margin-right: 5px !important;
+}
+.productListTitle{
+    width: 100%;
+}
+.display-flex{
+    display: flex !important;
+    align-items: center;
+}
+.jumbotron{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+.jumbotron h1{
+   color: #719c82;
+}
+
+.jumbotron.j-farmer{
+    background-image: url("./images/rice.png");
+}
+.jumbotron.j-veg{
+    background-image: url("./images/vegetable.png");
+}
+.btn-primary {
+    background-color: #507d54 !important;
+    border-color:#507d54 !important;
+}
+.btn-primary:hover{
+    background-color: #103826 !important;
+    border-color:#103826 !important;
+}
+.rdt_TableRow {
+    border-bottom-color: #c2e6c5 !important;
+}
+.rdt_TableHeadRow{
+    background-color: #507d54 !important;
+    border-bottom-color: #c2e6c5 !important;
+   
+}
+.jumbotron{
+    min-height: 300px;
+}
+.centered {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.user-switch {
+    font-weight: 200;
+    font-size: 13px;
+}
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
+}
