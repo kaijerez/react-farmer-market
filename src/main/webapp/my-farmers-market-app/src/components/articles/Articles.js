@@ -56,11 +56,6 @@ export default class Articles extends React.Component{
 					Axios(urlForRetrievingPageURLByPageID)
 					.then(
 						function (response) {
-							return response.json();
-						}
-					)
-					.then(
-						function (response) {
 							page.queryResultPageFullURL = response.data.query.pages[pageID].fullurl;
 
 
